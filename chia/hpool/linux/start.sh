@@ -1,0 +1,1 @@
+nohup ./hpool-miner-chia &

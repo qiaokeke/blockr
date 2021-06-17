@@ -1,0 +1,20 @@
+time="2021-06-17T13:44:14Z" level=info msg="Logger Configuration." fields.level=info file=loggers.go func=logging.Init line=121 path=./log/
+time="2021-06-17T13:44:14Z" level=info msg="switch line" chain=CHIA file=loggers.go func=logging.CPrint line=168 tid=1 type=ws url="ws://chia-sh2-d41d8cd98f.hpool.com/x-proxynode/ws"
+time="2021-06-17T13:44:14Z" level=info msg="pool public key: 89d762afb7221d6d46a3fe9a2cff301f5d135e53e8d86bfb56f778ea4ef6bbe524f5fc32dabacba0f9d985c532702dc6" file=loggers.go func=logging.CPrint line=168 tid=22
+time="2021-06-17T13:44:15Z" level=info msg="init server" file=loggers.go func=logging.CPrint line=168 tid=36 type=ws url="ws://chia-sh2-d41d8cd98f.hpool.com/x-proxynode/ws"
+time="2021-06-17T13:44:15Z" level=info msg="connect success" file=loggers.go func=logging.CPrint line=168 tid=36 url="ws://chia-sh2-d41d8cd98f.hpool.com/x-proxynode/ws"
+time="2021-06-17T13:44:15Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444347 jobId=3094178000 line=168 scan consume=0 scan time="1970-01-01 00:00:00" tid=83
+time="2021-06-17T13:44:26Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444347 jobId=1789091585 line=168 scan consume=0 scan time="2021-06-17 13:44:15" tid=83
+time="2021-06-17T13:44:34Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444350 jobId=1847726617 line=168 scan consume=0 scan time="2021-06-17 13:44:26" tid=83
+time="2021-06-17T13:44:41Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444350 jobId=77578491 line=168 scan consume=0 scan time="2021-06-17 13:44:34" tid=83
+time="2021-06-17T13:44:52Z" level=error msg="read message fail" error="read tcp 10.140.0.3:43368->203.107.53.48:80: use of closed network connection" f7="{loggers.go,logging.CPrint,156}" f8="{server.go,websocket.(*Server).connect.func1,111}" f9="{asm_amd64.s,runtime.goexit,1371}" tid=83
+time="2021-06-17T13:45:40Z" level=info msg="Logger Configuration." fields.level=info file=loggers.go func=logging.Init line=121 path=./log/
+time="2021-06-17T13:45:40Z" level=info msg="switch line" chain=CHIA file=loggers.go func=logging.CPrint line=168 tid=1 type=ws url="ws://chia-sh2-d41d8cd98f.hpool.com/x-proxynode/ws"
+time="2021-06-17T13:45:40Z" level=info msg="pool public key: 89d762afb7221d6d46a3fe9a2cff301f5d135e53e8d86bfb56f778ea4ef6bbe524f5fc32dabacba0f9d985c532702dc6" file=loggers.go func=logging.CPrint line=168 tid=39
+time="2021-06-17T13:45:41Z" level=info msg="init server" file=loggers.go func=logging.CPrint line=168 tid=14 type=ws url="ws://chia-sh2-d41d8cd98f.hpool.com/x-proxynode/ws"
+time="2021-06-17T13:45:42Z" level=info msg="connect success" file=loggers.go func=logging.CPrint line=168 tid=14 url="ws://chia-sh2-d41d8cd98f.hpool.com/x-proxynode/ws"
+time="2021-06-17T13:45:42Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444351 jobId=2124572277 line=168 scan consume=0 scan time="1970-01-01 00:00:00" tid=30
+time="2021-06-17T13:45:53Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444351 jobId=1747769630 line=168 scan consume=0 scan time="2021-06-17 13:45:42" tid=30
+time="2021-06-17T13:46:01Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444351 jobId=3272935816 line=168 scan consume=0 scan time="2021-06-17 13:45:53" tid=30
+time="2021-06-17T13:46:09Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444351 jobId=3441324476 line=168 scan consume=0 scan time="2021-06-17 13:46:01" tid=30
+time="2021-06-17T13:46:21Z" level=info msg="new mining info" capacity="202.80 GB" file=loggers.go func=logging.CPrint height=444351 jobId=237123352 line=168 scan consume=0 scan time="2021-06-17 13:46:09" tid=30

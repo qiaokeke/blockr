@@ -1,0 +1,21 @@
+path:
+  - /mnt/sdb1/tmp
+minerName: kk12-twb-dch1
+apiKey: c8e3be66-6350-460c-a30b-4ded13e1882c
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log/
+  name: miner.log
+url:
+  # 一个局域网内，代理只需要开一台就可以了，如代理所在的机器Ip是192.168.1.88，端口9190
+  # 下面配置改为
+  # proxy: "http://192.168.1.88:9190"
+  # In a local area network, only one proxy is required. For example, the IP of the machine where the proxy is located is 192.168.1.88 and the port is 9190
+  # The following configuration is changed to
+  # proxy: "http://192.168.1.88:9190"
+  proxy: ""
+scanPath: true
+scanMinute: 20
